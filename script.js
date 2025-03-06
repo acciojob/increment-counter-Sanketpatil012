@@ -5,7 +5,7 @@
  let btn= document.getElementById('incrementBtn')
 
 btn.addEventListener('click' ,  ()=>{
-	  let count = parseInt(paragraphs.innerHTML) 
+	  let count = parseInt(paragraphs.innerHTML)  || 0 
 	 alert(count)  
 	paragraphs.innerHTML= count +1
 })
