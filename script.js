@@ -6,8 +6,8 @@
         // Function to handle incrementing
         function incrementCounter() {
             let currentValue = parseInt(counterElement.innerText) || 0; // Get current count
-            counterElement.innerText = currentValue + 1; // Increment the counter
             alert("Current value before increment: " + currentValue); // Show alert with current value
+            counterElement.innerText = currentValue + 1; // Increment the counter
         }
 
         // Attach event listener to button
